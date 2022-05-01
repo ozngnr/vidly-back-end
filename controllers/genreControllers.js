@@ -18,32 +18,50 @@ const createGenre = async (req, res) => {
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.message);
 
-  const genreInDb = await Genre.findOne({ name: req.body.name });
-  if (genreInDb) return res.status(409).send('Genre already exists');
+  try {
+    const genre = await Genre.exists({ name: req.body.name });
+    if (genre) return res.status(409).send('Genre already exists');
 
-  const newGenre = await Genre.create(req.body).select('-__v');
-  res.json(newGenre);
+    const newGenre = await Genre.create(req.body);
+    res.json(newGenre);
+  } catch (err) {
+    console.log(err);
+    return res.status(400).send('Something went wrong.');
+  }
 };
 
 const updateGenre = async (req, res) => {
   const { error } = validateGenre(req.body);
   if (error) return res.status(400).send(error.message);
 
-  const updatedGenre = await Genre.findByIdAndUpdate(
-    req.params._id,
-    { name: req.body.name },
-    { new: 'true' }
-  ).select('-__v');
+  try {
+    const genre = await Genre.findByIdAndUpdate(
+      req.params._id,
+      { name: req.body.name },
+      { new: 'true' }
+    ).select('-__v');
 
-  res.json(updatedGenre);
+    if (!genre)
+      return res.status(404).send('Genre with the given ID was not found.');
+
+    res.json(genre);
+  } catch (err) {
+    console.log(err);
+    res.status(400).send('Something went wrong.');
+  }
 };
 
 const deleteGenre = async (req, res) => {
-  const genre = await Genre.findByIdAndDelete(req.params._id);
+  try {
+    const genre = await Genre.findByIdAndDelete(req.params._id).select('-__v');
 
-  if (!genre)
-    return res.status(404).send('Genre with the given ID was not found.');
-  res.json(genre);
+    if (!genre)
+      return res.status(404).send('Genre with the given ID was not found.');
+    res.json(genre);
+  } catch (err) {
+    console.log(err);
+    res.status(400).send('Something went wrong.');
+  }
 };
 
 module.exports = {
