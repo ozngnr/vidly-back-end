@@ -20,7 +20,7 @@ const createGenre = async (req, res) => {
 
   try {
     const genre = await Genre.exists({ name: req.body.name });
-    if (genre) return res.status(409).send('Genre already exists');
+    if (genre) return res.status(400).send('Genre already exists');
 
     const newGenre = await Genre.create(req.body);
     res.json(newGenre);
