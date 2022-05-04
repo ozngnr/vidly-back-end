@@ -15,64 +15,45 @@ const validateCustomer = (customer) => {
 };
 
 const getCustomers = async (req, res) => {
-  try {
-    const allCustomers = await Customer.find({}).select('-__v');
-    res.json(allCustomers);
-  } catch (error) {
-    res.status(400).send('Something went wrong.');
-  }
+  const allCustomers = await Customer.find({}).select('-__v');
+  res.json(allCustomers);
 };
 
 const createCustomer = async (req, res) => {
   const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.message);
 
-  try {
-    const customer = await Customer.exists({ name: req.body.name });
-    if (customer) return res.status(409).send('Customer already exists');
+  const customer = await Customer.exists({ name: req.body.name });
+  if (customer) return res.status(409).send('Customer already exists');
 
-    const newCustomer = await Customer.create(req.body);
-    res.json(newCustomer);
-  } catch (err) {
-    console.log(err);
-    return res.status(400).send('Something went wrong.');
-  }
+  const newCustomer = await Customer.create(req.body);
+  res.json(newCustomer);
 };
 
 const updateCustomer = async (req, res) => {
   const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.message);
 
-  try {
-    const customer = await Customer.findByIdAndUpdate(
-      req.params._id,
-      { name: req.body.name, phone: req.body.phone, isGold: req.body.isGold },
-      { new: 'true' }
-    ).select('-__v');
+  const customer = await Customer.findByIdAndUpdate(
+    req.params._id,
+    { name: req.body.name, phone: req.body.phone, isGold: req.body.isGold },
+    { new: 'true' }
+  ).select('-__v');
 
-    if (!customer)
-      return res.status(404).send('Customer with the given ID was not found.');
+  if (!customer)
+    return res.status(404).send('Customer with the given ID was not found.');
 
-    res.json(customer);
-  } catch (err) {
-    console.log(err);
-    res.status(400).send('Something went wrong.');
-  }
+  res.json(customer);
 };
 
 const deleteCustomer = async (req, res) => {
-  try {
-    const customer = await Customer.findByIdAndDelete(req.params._id).select(
-      '-__v'
-    );
+  const customer = await Customer.findByIdAndDelete(req.params._id).select(
+    '-__v'
+  );
 
-    if (!customer)
-      return res.status(404).send('Customer with the given ID was not found.');
-    res.json(customer);
-  } catch (err) {
-    console.log(err);
-    res.status(400).send('Something went wrong.');
-  }
+  if (!customer)
+    return res.status(404).send('Customer with the given ID was not found.');
+  res.json(customer);
 };
 
 module.exports = {

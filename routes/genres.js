@@ -1,12 +1,19 @@
 const express = require('express');
 const router = express.Router();
-const genreControllers = require('../controllers/genreControllers');
+const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
+const {
+  getGenres,
+  createGenre,
+  updateGenre,
+  deleteGenre,
+} = require('../controllers/genreControllers');
 
 //end point api/genres
 
-router.get('/', genreControllers.getGenres);
-router.post('/', genreControllers.createGenre);
-router.put('/:_id', genreControllers.updateGenre);
-router.delete('/:_id', genreControllers.deleteGenre);
+router.get('/', getGenres);
+router.post('/', auth, createGenre);
+router.put('/:_id', auth, updateGenre);
+router.delete('/:_id', [auth, admin], deleteGenre);
 
 module.exports = router;

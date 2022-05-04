@@ -16,8 +16,11 @@
     "express": "^4.17.3",
     "joi": "^17.6.0",
     "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
-    "mongoose": "^6.2.11"
+    "mongoose": "^6.2.11",
+    "winston": "^3.7.2",
+    "winston-mongodb": "^5.0.7"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -37,6 +40,7 @@
     "@babel/preset-env": "^7.16.11",
     "dotenv": "^16.0.0",
     "eslint": "^8.13.0",
+    "express-async-errors": "^3.1.1",
     "jshint": "^2.13.4",
     "nodemon": "^2.0.15"
   }

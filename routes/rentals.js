@@ -1,11 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const rentalControllers = require('../controllers/rentalControllers');
+const auth = require('../middleware/auth');
+const {
+  getRentals,
+  getRental,
+  createRental,
+} = require('../controllers/rentalControllers');
 
 //end point api/rentals
-
-router.get('/', rentalControllers.getRentals);
-router.get('/:_id', rentalControllers.getRental);
-router.post('/', rentalControllers.createRental);
+router.get('/', getRentals);
+router.get('/:_id', getRental);
+router.post('/', auth, createRental);
 
 module.exports = router;

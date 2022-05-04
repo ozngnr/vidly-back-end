@@ -12,34 +12,39 @@ const validateUser = (user) => {
   return schema.validate(user);
 };
 
+const getUser = async (req, res) => {
+  const user = await User.findById(req.user._id).select('-password');
+  res.json(user);
+};
+
 const createUser = async (req, res) => {
   const { error } = validateUser(req.body);
   if (error) return res.status(400).send(error.message);
 
-  try {
-    const user = await User.findOne({ email: req.body.email });
-    if (user)
-      return res
-        .status(400)
-        .send('The email address is already associated with another account.');
+  let user = await User.findOne({ email: req.body.email });
+  if (user)
+    return res
+      .status(400)
+      .send('The email address is already associated with another account.');
 
-    // Hash user password
-    const salt = await bcrypt.genSalt(10);
-    const hashed = await bcrypt.hash(req.body.password, salt);
+  // Hash user password
+  const salt = await bcrypt.genSalt(10);
+  const hashed = await bcrypt.hash(req.body.password, salt);
 
-    const { _id, name, email } = await User.create({
-      name: req.body.name,
-      email: req.body.email,
-      password: hashed,
-    });
+  user = await new User({
+    name: req.body.name,
+    email: req.body.email,
+    password: hashed,
+  });
 
-    res.json({ _id, name, email });
-  } catch (error) {
-    console.log(error);
-    res.status(500).send('Something went wrong.');
-  }
+  const token = user.generateAuthToken();
+  await user.save();
+  res
+    .header('x-auth-token', token)
+    .json({ _id: user._id, name: user.name, email: user.email });
 };
 
 module.exports = {
+  getUser,
   createUser,
 };

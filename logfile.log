@@ -1,0 +1,61 @@
+error: 05-04-2022 14:01:02: Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-04-2022 14:07:21: undefined
+error: 05-04-2022 14:07:33: TypeError: Cannot create property 'Symbol(level)' on string 'Listening on port 8000'
+    at DerivedLogger.log (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/winston/lib/winston/logger.js:214:20)
+    at Server.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:11:31)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitListeningNT (net.js:1354:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+error: 05-04-2022 14:10:25: Error: WRONG WRONG WRONG
+    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
+error: 05-04-2022 14:12:32: Error: WRONG WRONG WRONG
+    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
+[31merror[39m: 05-04-2022 14:13:04: Error: WRONG WRONG WRONG
+    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
+[31merror[39m: 05-04-2022 14:15:14: Error: WRONG WRONG WRONG
+    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
+    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
+    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
+    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)

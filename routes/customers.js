@@ -1,12 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const customerControllers = require('../controllers/customerControllers');
+const {
+  getCustomers,
+  createCustomer,
+  updateCustomer,
+  deleteCustomer,
+} = require('../controllers/customerControllers');
 
 //end point api/customers
 
-router.get('/', customerControllers.getCustomers);
-router.post('/', customerControllers.createCustomer);
-router.put('/:_id', customerControllers.updateCustomer);
-router.delete('/:_id', customerControllers.deleteCustomer);
+router.get('/', getCustomers);
+router.post('/', createCustomer);
+router.put('/:_id', updateCustomer);
+router.delete('/:_id', deleteCustomer);
 
 module.exports = router;
