@@ -1,5 +1,5 @@
 module.exports = () => {
-  if (!process.env.VIDLY_JWT_KEY) {
+  if (!process.env.jwtPrivateKey) {
     throw new Error('FATAL ERROR: jwtPrivateKey is not defined.');
   }
 };

@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon -r dotenv/config server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=development nodemon server.js",
+    "test": "NODE_ENV=test jest --detectOpenHandles --watchAll --verbose --coverage --setupFiles dotenv/config"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +13,13 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "joi": "^17.6.0",
     "joi-objectid": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "mongoose": "^6.2.11",
     "winston": "^3.7.2",
     "winston-mongodb": "^5.0.7"
@@ -27,7 +29,8 @@
     "env": {
       "node": true,
       "browser": true,
-      "es6": true
+      "es6": true,
+      "jest": true
     },
     "parserOptions": {
       "ecmaVersion": "latest",
@@ -35,13 +38,10 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/node": "^7.16.8",
-    "@babel/preset-env": "^7.16.11",
-    "dotenv": "^16.0.0",
     "eslint": "^8.13.0",
     "express-async-errors": "^3.1.1",
-    "jshint": "^2.13.4",
-    "nodemon": "^2.0.15"
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.3"
   }
 }

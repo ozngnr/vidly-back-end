@@ -10,9 +10,17 @@ const validateGenre = (genre) => {
 };
 
 const getGenres = async (req, res) => {
-  throw new Error('WRONG WRONG WRONG');
   const allGenres = await Genre.find({}).select('-__v').sort('name');
   res.json(allGenres);
+};
+
+const getGenre = async (req, res) => {
+  const genre = await Genre.findById(req.params._id);
+
+  if (!genre)
+    return res.status(404).send('Genre with the given ID was not found.');
+
+  res.json(genre);
 };
 
 const createGenre = async (req, res) => {
@@ -51,6 +59,7 @@ const deleteGenre = async (req, res) => {
 };
 
 module.exports = {
+  getGenre,
   getGenres,
   createGenre,
   updateGenre,

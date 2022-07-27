@@ -1,4 +1,289 @@
-error: 05-04-2022 14:01:02: Error: FATAL ERROR: jwtPrivateKey is not defined.
+error: 05-10-2022 15:51:39: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 15:52:03: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 15:59:49: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:01:01: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:02:43: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:06:55: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:07:24: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:5:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:19:41: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:4:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+error: 05-10-2022 16:20:16: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:20:29: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:21:46: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/genres.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/middleware/auth.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:21:49: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/models/user.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:22:08: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/models/user.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:22:32: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/models/user.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:22:48: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/models/user.js
+- /Users/ozanguner/Web Projects/vidly-back-end/controllers/userControllers.js
+- /Users/ozanguner/Web Projects/vidly-back-end/routes/users.js
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/routes.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/models/user.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:22:50: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/config.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/config.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:23:29: 	uncaughtException: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/config.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+Error: Cannot find module 'config'
+Require stack:
+- /Users/ozanguner/Web Projects/vidly-back-end/startup/config.js
+- /Users/ozanguner/Web Projects/vidly-back-end/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:889:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:745:27)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:1:16)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+error: 05-10-2022 16:24:03: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
     at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
     at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
     at Module._compile (internal/modules/cjs/loader.js:1072:14)
@@ -7,55 +292,119 @@ error: 05-04-2022 14:01:02: Error: FATAL ERROR: jwtPrivateKey is not defined.
     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
     at internal/main/run_main_module.js:17:47
-error: 05-04-2022 14:07:21: undefined
-error: 05-04-2022 14:07:33: TypeError: Cannot create property 'Symbol(level)' on string 'Listening on port 8000'
-    at DerivedLogger.log (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/winston/lib/winston/logger.js:214:20)
-    at Server.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:11:31)
-    at Object.onceWrapper (events.js:519:28)
-    at Server.emit (events.js:400:28)
-    at emitListeningNT (net.js:1354:10)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)
-error: 05-04-2022 14:10:25: Error: WRONG WRONG WRONG
-    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
-error: 05-04-2022 14:12:32: Error: WRONG WRONG WRONG
-    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
-[31merror[39m: 05-04-2022 14:13:04: Error: WRONG WRONG WRONG
-    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
-[31merror[39m: 05-04-2022 14:15:14: Error: WRONG WRONG WRONG
-    at getGenres (/Users/ozanguner/Web Projects/vidly-back-end/controllers/genreControllers.js:13:9)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:137:13)
-    at Route.dispatch (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/route.js:112:3)
-    at newFn (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express-async-errors/index.js:16:20)
-    at Layer.handle [as handle_request] (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/layer.js:95:5)
-    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:281:22
-    at Function.process_params (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:341:12)
-    at next (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/router/index.js:275:10)
+error: 05-10-2022 16:30:38: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:6:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:30:55: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:37:35: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 16:38:13: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 17:17:21: 	uncaughtException: Cannot read property 'toUpperCase' of undefined
+TypeError: Cannot read property 'toUpperCase' of undefined
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:5:36)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 05-10-2022 21:57:37: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 05-10-2022 22:06:18: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 05-10-2022 22:06:35: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 05-24-2022 22:05:16: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 07-11-2022 19:30:53: 	Operation `genres.findOne()` buffering timed out after 10000ms Operation `genres.findOne()` buffering timed out after 10000ms
+error: 07-12-2022 19:10:22: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 07-12-2022 19:12:02: 	Cast to ObjectId failed for value "6266d0ca78fb7edbb2f6b5r5" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "6266d0ca78fb7edbb2f6b5r5" (type string) at path "_id" for model "Genre"
+error: 07-24-2022 14:01:26: 	Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre" Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Genre"
+error: 07-24-2022 15:27:43: 	Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client
+error: 07-24-2022 15:35:16: 	Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client
+error: 07-24-2022 17:37:24: 	Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client
+error: 07-24-2022 17:37:24: 	Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client
+error: 07-25-2022 12:49:24: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:24: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:24: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:24: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:24: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:25: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:25: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:25: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:49:25: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:08: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:09: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:09: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:51:09: 	Joi.ObjectId is not a function Joi.ObjectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-25-2022 12:53:13: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:49: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:49: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:49: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:49: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:19:49: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:44: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:44: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:44: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:21:45: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
+error: 07-26-2022 12:32:48: 	Joi.objectId is not a function Joi.objectId is not a function
