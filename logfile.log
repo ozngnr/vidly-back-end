@@ -430,3 +430,79 @@ TypeError: Cannot read property 'toUpperCase' of undefined
     at Function.Module._load (internal/modules/cjs/loader.js:778:12)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
     at internal/main/run_main_module.js:17:47
+error: 08-07-2022 17:11:20: 	uncaughtException: Cannot read property 'toUpperCase' of undefined
+TypeError: Cannot read property 'toUpperCase' of undefined
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:5:36)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 08-10-2022 18:02:59: 	uncaughtException: FATAL ERROR: jwtPrivateKey is not defined.
+Error: FATAL ERROR: jwtPrivateKey is not defined.
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/config.js:3:11)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:7:28)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 08-10-2022 18:04:39: 	uncaughtException: Cannot read property 'toUpperCase' of undefined
+TypeError: Cannot read property 'toUpperCase' of undefined
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:5:36)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+error: 08-30-2022 18:33:45: 	unhandledRejection: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/connection.js:807:32)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:342:10
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:1181:10)
+    at Mongoose.connect (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:341:20)
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:9:12)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:9:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+error: 08-30-2022 19:46:02: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 09-01-2022 23:02:45: 	Cast to ObjectId failed for value "movieId" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "movieId" (type string) at path "_id" for model "Movie"
+error: 09-04-2022 22:45:49: 	uncaughtException: listen EADDRINUSE: address already in use :::3900
+Error: listen EADDRINUSE: address already in use :::3900
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:14:20)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+error: 09-04-2022 22:49:28: 	uncaughtException: listen EADDRINUSE: address already in use :::3900
+Error: listen EADDRINUSE: address already in use :::3900
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:14:20)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+error: 09-08-2022 21:52:36: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 09-08-2022 22:08:49: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 09-08-2022 22:08:53: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 09-08-2022 22:11:42: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 09-27-2022 13:01:29: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
+error: 09-28-2022 12:38:08: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
+error: 09-28-2022 12:38:26: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
+error: 09-28-2022 12:45:14: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
