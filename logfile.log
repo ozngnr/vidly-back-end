@@ -506,3 +506,43 @@ error: 09-27-2022 13:01:29: 	secretOrPrivateKey must have a value secretOrPrivat
 error: 09-28-2022 12:38:08: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
 error: 09-28-2022 12:38:26: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
 error: 09-28-2022 12:45:14: 	secretOrPrivateKey must have a value secretOrPrivateKey must have a value
+error: 11-21-2022 21:32:57: 	unhandledRejection: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/connection.js:824:32)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:413:10
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:1266:10)
+    at Mongoose.connect (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:412:20)
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:9:12)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:9:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+error: 11-21-2022 21:34:10: 	unhandledRejection: connect ECONNREFUSED 127.0.0.1:27017
+MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Connection.openUri (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/connection.js:824:32)
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:413:10
+    at /Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:10)
+    at Mongoose._promiseOrCallback (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:1266:10)
+    at Mongoose.connect (/Users/ozanguner/Web Projects/vidly-back-end/node_modules/mongoose/lib/index.js:412:20)
+    at module.exports (/Users/ozanguner/Web Projects/vidly-back-end/startup/db.js:9:12)
+    at Object.<anonymous> (/Users/ozanguner/Web Projects/vidly-back-end/server.js:9:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+error: 11-21-2022 21:58:35: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:00:18: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:02:32: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:02:32: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:03:58: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:04:02: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:04:02: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:05:47: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:06:08: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca69o" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca69o" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:12:25: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:12:26: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:12:47: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68v" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68v" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:12:47: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68v" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68v" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:17:41: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:17:41: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
+error: 11-21-2022 22:20:20: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
