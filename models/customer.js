@@ -4,6 +4,7 @@ const customerSchema = new mongoose.Schema({
   isGold: { type: Boolean, default: false },
   name: String,
   phone: String,
+  email: String,
 });
 
 const Customer = mongoose.model('Customer', customerSchema);
