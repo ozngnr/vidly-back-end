@@ -5,9 +5,11 @@ const validateCustomer = (customer) => {
   const schema = Joi.object({
     name: Joi.string().min(3).max(50).required(),
     phone: Joi.string()
-      .regex(/[0-9]{11}/)
+      .min(11)
+      .max(20)
       .message('Phone must be 11 digits long')
       .required(),
+    email: Joi.string().email().required(),
     isGold: Joi.boolean(),
   });
 
@@ -23,7 +25,7 @@ const createCustomer = async (req, res) => {
   const { error } = validateCustomer(req.body);
   if (error) return res.status(400).send(error.message);
 
-  const customer = await Customer.exists({ name: req.body.name });
+  const customer = await Customer.exists({ email: req.body.email });
   if (customer) return res.status(409).send('Customer already exists');
 
   const newCustomer = await Customer.create(req.body);
