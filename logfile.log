@@ -546,6 +546,7 @@ error: 11-21-2022 22:12:47: 	Cast to ObjectId failed for value "637bf3c1d2867fd7
 error: 11-21-2022 22:17:41: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
 error: 11-21-2022 22:17:41: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
 error: 11-21-2022 22:20:20: 	Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "637bf3c1d2867fd747dca68n" (type string) at path "_id" for model "Movie"
+<<<<<<< Updated upstream
 error: 12-04-2022 15:41:18: 	Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie"
 error: 12-04-2022 15:41:18: 	Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie"
 error: 12-04-2022 15:41:48: 	Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "login" (type string) at path "_id" for model "Movie"
@@ -560,3 +561,15 @@ error: 12-04-2022 16:38:53: 	Cast to ObjectId failed for value "6389eed142fb8kc1
 error: 12-04-2022 16:38:53: 	Cast to ObjectId failed for value "6389eed142fb8kc17d04ad67" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "6389eed142fb8kc17d04ad67" (type string) at path "_id" for model "Movie"
 error: 12-04-2022 16:42:47: 	Cast to ObjectId failed for value "6388a19542fb8fc17s04aced" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "6388a19542fb8fc17s04aced" (type string) at path "_id" for model "Movie"
 error: 12-04-2022 16:42:47: 	Cast to ObjectId failed for value "6388a19542fb8fc17s04aced" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "6388a19542fb8fc17s04aced" (type string) at path "_id" for model "Movie"
+=======
+error: 09-03-2023 21:15:42: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:17:01: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:23:40: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:25:34: 	Cast to ObjectId failed for value "63b6c2895183a1b52f1eb029555" (type string) at path "_id" for model "Movie" Cast to ObjectId failed for value "63b6c2895183a1b52f1eb029555" (type string) at path "_id" for model "Movie"
+error: 09-03-2023 21:26:31: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:34:45: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:35:36: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:39:28: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:41:27: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+error: 09-03-2023 21:41:36: 	Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User" Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "User"
+>>>>>>> Stashed changes

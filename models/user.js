@@ -19,6 +19,7 @@ const userSchema = new mongoose.Schema({
   },
   password: { type: String, minlength: 5, maxlength: 255, required: true },
   isAdmin: Boolean,
+  likedMovies: [String],
 });
 
 userSchema.methods.generateAuthToken = function () {
@@ -28,6 +29,7 @@ userSchema.methods.generateAuthToken = function () {
       isAdmin: this.isAdmin,
       name: this.name,
       email: this.email,
+      likedMovies: this.likedMovies
     },
     config.get('jwtPrivateKey')
   );

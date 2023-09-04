@@ -32,6 +32,7 @@ const createUser = async (req, res) => {
     name: req.body.name,
     email: req.body.email,
     password: hashed,
+    likedMovies: [],
   });
 
   const token = user.generateAuthToken();
@@ -42,7 +43,24 @@ const createUser = async (req, res) => {
     .json({ _id: user._id, name: user.name, email: user.email });
 };
 
+const updateUser = async (req, res) => {
+  console.log(req);
+  const updatedUser = await User.findByIdAndUpdate(
+    req.params._id,
+    {
+      name : req.body.name,
+      email: req.body.email,
+      likedMovies: req.body.likedMovies,
+      isAdmin: req.body.isAdmin
+    },
+    { new: 'true' }
+  ).select('-__v -password');
+
+  res.status(200).send(updatedUser)
+}
+
 module.exports = {
   getUser,
   createUser,
+  updateUser
 };
